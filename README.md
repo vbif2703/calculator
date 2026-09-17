@@ -1,4 +1,4 @@
-def convert_bytes():
+    def convert_bytes():
     # Словарь единиц измерения (множители относительно байт)
     units = {
         'b': 1,
@@ -38,8 +38,8 @@ def convert_bytes():
     print(f"Результат: {amount} {from_unit.upper()} = {round(result, 4)} {to_unit.upper()}")
 
 
-# Запуск
-if __name__ == "__main__":
-    convert_bytes()
+    # Запуск
+    if __name__ == "__main__":
+        convert_bytes()
 
-convert_bytes()
+    convert_bytes()
